@@ -1,0 +1,10 @@
+.videosidebar{
+    position:absolute;
+    top:55%;
+    right:10px;
+    color:white;
+}
+#container-icons{
+    padding:20px;
+    text-align:center;
+}

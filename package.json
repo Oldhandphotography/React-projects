@@ -1,8 +1,5 @@
 {
-  "dependencies": {
-    "@mui/material": "^5.2.6",
-    "@mui/styled-engine-sc": "^5.1.0",
-    "axios": "^0.24.0",
-    "styled-components": "^5.3.3"
+  "devDependencies": {
+    "stylelint-config-recommended": "^6.0.0"
   }
 }

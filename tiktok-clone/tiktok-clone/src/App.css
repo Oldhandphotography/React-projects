@@ -1,0 +1,35 @@
+*{
+  margin:0;
+  padding:0;
+}
+
+html{
+  scroll-snap-type: mandatory;
+}
+.App{
+  height:100vh;
+  background-color:black;
+  display: grid;
+  place-items: center;
+  padding:10px;
+}
+.app-videos{
+  margin:10px;
+  position:relative;
+  width:80%;
+  height:700px;
+  max-width: 400px;
+  border-radius:20px;
+  overflow:scroll;
+  scroll-snap-type: mandatory;
+
+}
+.app-videos::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.app-videos {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}

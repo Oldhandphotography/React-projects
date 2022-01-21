@@ -1,0 +1,27 @@
+.instagram{
+  bottom: 500px;
+}
+.Videofooter {
+  position: relative;
+  color: white;
+  bottom:400px;
+  margin-left:38px;
+  display:flex;
+}
+.videofooter-text{
+    flex:1;
+}
+.videofooter-text > p{
+    padding-bottom:20px;
+}
+.videofooter-ticker > .ticker{
+  height: fit-content;
+  margin-left:38px;
+  width:60%;
+}
+.videofooter-icon{
+  position:absolute;
+}
+..videofooter-ticker h1{
+  padding-top:7px;
+}

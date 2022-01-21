@@ -1,6 +1,6 @@
 // axios http request easy kerta hai
 import axios from 'axios';
 const instance =  axios.create({
-    baseURL: 'http://localhost:5500'
+    baseURL: 'https://tinderclone-backend-2.herokuapp.com'
 }) ;
 export default instance;
