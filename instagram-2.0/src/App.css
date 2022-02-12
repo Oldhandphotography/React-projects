@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.app {
+  background-color: #fafafa;
+  height: 100vh;
+}
+.app_header {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  background-color: rgb(250, 250, 250);
+  border-bottom: 1px solid lightgray;
+  padding: 10px;
+}
+.app_headerImage {
+  background-color: rgb(250, 250, 250);
+  height: 50px;
+  width: 85px;
+  object-fit: contain;
+}
+.insta {
+  font-size: 3em;
+  font-family: "Lobster";
+  font-style: normal;
+}
